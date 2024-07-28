@@ -36,8 +36,8 @@ module.exports = {
         const end = Date.now();
         const embed = new EmbedBuilder()
           .setColor(config.embedColor)
-          .setTitle(`Bot Latency`)
-          .setDescription(`**Pong** : ${end - start}ms`)
+          .setTitle(`🏓Pong`)
+          .setDescription(`**Pong : ${end - start}ms**`)
         return interaction.editReply({ embeds: [embed] }).catch(e => { });
       }).catch(err => { })
 
