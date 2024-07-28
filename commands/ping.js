@@ -37,7 +37,7 @@ module.exports = {
         const embed = new EmbedBuilder()
           .setColor(config.embedColor)
           .setTitle(`🏓Pong`)
-          .setDescription(`**Pong : ${end - start}ms**`)
+          .setDescription(`**Ping : ${end - start}ms**`)
         return interaction.editReply({ embeds: [embed] }).catch(e => { });
       }).catch(err => { })
 
