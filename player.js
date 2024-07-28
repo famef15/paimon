@@ -61,6 +61,7 @@ function initializePlayer(client) {
             })
             .setDescription('🍌  **Controls:**\n\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 📜 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
+            .setThumbnail('https://cdn.discordapp.com/attachments/1122876346117398608/1267117156147920999/song-musicdis.gif?ex=66a79e4f&is=66a64ccf&hm=5a069628f35e9962f13974e48bc4f489cc913550b817dbb76cefda7a9ada8826&')
             .setColor(config.embedColor);
 
         const actionRow1 = createActionRow1(false);
