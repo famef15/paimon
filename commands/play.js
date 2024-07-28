@@ -101,6 +101,7 @@ async function play(client, interaction) {
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
+                .setThumbnail('https://cdn.discordapp.com/attachments/1122876346117398608/1267117156147920999/song-musicdis.gif?ex=66a79e4f&is=66a64ccf&hm=5a069628f35e9962f13974e48bc4f489cc913550b817dbb76cefda7a9ada8826&')
                  .setFooter({ text: '🍌 Enjoy your music!'}),
 
             new EmbedBuilder()
@@ -111,6 +112,7 @@ async function play(client, interaction) {
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
+                .setThumbnail('https://cdn.discordapp.com/attachments/1122876346117398608/1267117156147920999/song-musicdis.gif?ex=66a79e4f&is=66a64ccf&hm=5a069628f35e9962f13974e48bc4f489cc913550b817dbb76cefda7a9ada8826&')
                  .setFooter({ text: '🍌 Enjoy your music!'}),
 
             new EmbedBuilder()
@@ -121,7 +123,8 @@ async function play(client, interaction) {
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                .setFooter({ text: '🍌 Enjoy your music!'})
+                .setThumbnail('https://cdn.discordapp.com/attachments/1122876346117398608/1267117156147920999/song-musicdis.gif?ex=66a79e4f&is=66a64ccf&hm=5a069628f35e9962f13974e48bc4f489cc913550b817dbb76cefda7a9ada8826&')
+                 .setFooter({ text: '🍌 Enjoy your music!'})
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
