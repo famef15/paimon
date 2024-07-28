@@ -32,7 +32,7 @@ module.exports = {
       const supportServerLink = "https://discord.gg/uGk8QcZMRs";
       const youtubeLink = "https://www.youtube.com/@zerox-sb3dr";
         const embed = new EmbedBuilder()
-            .setColor('#b300ff')
+            .setColor('#edff7b')
             .setAuthor({
               name: 'Support Server',
               iconURL: 'https://cdn.discordapp.com/attachments/1122876346117398608/1267108098057703454/A07.png?ex=66a795e0&is=66a64460&hm=9504f7faab147efb82f09e845e48bfa72be8c46745509bf469d35c53409a1e8f&', 
