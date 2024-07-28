@@ -30,9 +30,9 @@ module.exports = {
   musicardTheme:"themes16", //Goes from themes1 to themes19
   activityName: "🧬 /help ║ V1.0", // This is bot status Write Anything here 
   activityType: "WATCHING",  // Available activity types : LISTENING , PLAYING
-  SupportServer: "https://discord.gg/xQF9f9yUEM",
-  CheckmarkIcon: "https://cdn.discordapp.com/attachments/1230824451990622299/1230836684774576168/7762-verified-blue.gif",
-  MusicIcon:"https://media.discordapp.net/attachments/1230824451990622299/1236664581364125787/music-play.gif",
+  SupportServer: "https://discord.gg/uGk8QcZMRs",
+  CheckmarkIcon: "https://cdn.discordapp.com/attachments/1122876346117398608/1267116701321920573/3983_My_best_verified.gif?ex=66a79de3&is=66a64c63&hm=3778314b9073c0b9d0f3abf369bfc9ad67fc54ac7c7fa851a88d9c80881aaf86&",
+  MusicIcon:"https://cdn.discordapp.com/attachments/1122876346117398608/1267117156147920999/song-musicdis.gif?ex=66a79e4f&is=66a64ccf&hm=5a069628f35e9962f13974e48bc4f489cc913550b817dbb76cefda7a9ada8826&",
   embedTimeout: 5,  // Timeout before the button interaction embeds are deleted ( Default - 5 seconds)
   errorLog: "", 
 
