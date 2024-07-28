@@ -96,32 +96,32 @@ async function play(client, interaction) {
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: ' | Ready to play',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                 .setFooter({ text: '🍌 Enjoy your music!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: ' | Ready to play',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                 .setFooter({ text: '🍌 Enjoy your music!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: ' | Ready to play',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                .setFooter({ text: '🎶 Enjoy your music!'})
+                .setFooter({ text: '🍌 Enjoy your music!'})
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
