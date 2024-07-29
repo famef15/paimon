@@ -44,6 +44,7 @@ module.exports = {
         host: "sg1.elysiumx.xyz",
         port: 1845,
         password: "MachasLavalink48sa68",
+        identifier: "Slamy-[SG]",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
