@@ -327,27 +327,27 @@ function initializePlayer(client) {
             .addComponents(
                 new ButtonBuilder()
                     .setCustomId("loopToggle")
-                    .setEmoji('🔁')
+                    .setEmoji('<:crvt:1267465385221820497>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("disableLoop")
-                    .setEmoji('❌')
+                    .setEmoji('<:crvt:1267465382617284689>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("skipTrack")
-                    .setEmoji('⏭️')
+                    .setEmoji('<:crvt:1267465393585520812>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("showQueue")
-                    .setEmoji('📜')
+                    .setEmoji('<:crvt:1267465372940894307>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("clearQueue")
-                    .setEmoji('🗑️')
+                    .setEmoji('<:crvt:1267465374849433620>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled)
             );
@@ -358,27 +358,27 @@ function initializePlayer(client) {
             .addComponents(
                 new ButtonBuilder()
                     .setCustomId("stopTrack")
-                    .setEmoji('⏹️')
+                    .setEmoji('<:crvt:1267465391551021087>')
                     .setStyle(ButtonStyle.Danger)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("pauseTrack")
-                    .setEmoji('⏸️')
+                    .setEmoji('<:crvt:1267465387369562124>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("resumeTrack")
-                    .setEmoji('▶️')
+                    .setEmoji('<:crvt:1267465389571313734>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("volumeUp")
-                    .setEmoji('🔊')
+                    .setEmoji('<:crvt:1267465380616474684>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("volumeDown")
-                    .setEmoji('🔉')
+                    .setEmoji('<:crvt:1267465378578169938>')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled)
             );
