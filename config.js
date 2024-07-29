@@ -40,11 +40,10 @@ module.exports = {
 
   nodes: [
     {
-        name: "Node #1",
-        host: "sg1.elysiumx.xyz",
-        port: 1845,
-        password: "MachasLavalink48sa68",
-        identifier: "Slamy-[SG]",
+        name: "banana man",
+        host: "lava-v3.ajieblogs.eu.org",
+        port: 80,
+        password: "https://dsc.gg/ajidevserver",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
