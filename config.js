@@ -40,7 +40,7 @@ module.exports = {
 
   nodes: [
     {
-        name: "banana man",
+        name: "Node #1",
         host: "sg1.elysiumx.xyz",
         port: 1845,
         password: "MachasLavalink48sa68",
