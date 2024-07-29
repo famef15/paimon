@@ -33,5 +33,3 @@ module.exports = async (client) => {
     client.errorLog = config.errorLog;
 };
 
-*/
-
